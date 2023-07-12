@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Pizzaria do Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="content">
+        <div class="logo">
+            <img src="img/pizzacartoon.png" alt="imagem da logo">
+            <h3>PizzaDev</h3>
+        </div>
+        <nav>
+            <ul class="menu-list">
+
+                <li><a href="#" onclick="scrollToSection('#home')">Home</a></li>
+                <li><a href="#sobrenos" onclick="scrollToSection('#sobrenos')">Sobre nós</a></li>
+                <li><a href="#cardapio" onclick="scrollToSection('#cardapio')">Cardápio</a></li>
+                <li><a href="#contatos" onclick="scrollToSection('#contatos')">Contatos</a></li>
+                <li><a href="https://github.com/hilariohabhab" target="_blank"><i class="bi bi-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mhabhab/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </li>
+                <li><a href="https://api.whatsapp.com/send?phone=5541996769659&text=Vi%20seu%20projeto%20web%20e%20tenho%20uma%20proposta%20para%20te%20fazer!"
+                        target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                <li><a href="#"><i class="bi bi-cart"></i></i></a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </header>
+    <section class="first-section">
+        <div class="conteudo-principal">
+            <h1>Deixe seu dia mais saboroso!</h1>
+            <h2>As pizzas feitas de <span class="dev">Dev </span>para <span class="dev">Dev</span></h2>
+            <div class="btn">
+                <button class="reservar">Reserve a sua!</button>
+                <button class="montar">Monte a sua dev pizza!</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-nos" id="sobrenos">
+        <div class="main">
+            <div class="content-sobre">
+                <h2>SOBRE MIM </h2>
+                <p>Olá! Meu nome é <strong>Mohamad</strong> Sou um desenvolvedor Front-end em busca da minha primeira oportunidade profissional. Ao longo dos anos, acumulei experiência sólida em HTML, CSS, JavaScript, React, Git e Node.js. <br><br>Estou sempre buscando aprimorar minhas habilidades e atualmente estou me aventurando no mundo do Python. Além disso, tenho conhecimento em bancos de dados. Estou animado para aplicar todo o meu conhecimento e entusiasmo em projetos desafiadores.
+                    <br><br><strong> Vamos construir algo incrível juntos!</strong>
+            </div>
+            <div class="cozinha">
+                <img src="./img/cozinha.jpg" alt="Imagem da cozinha">
+            </div>
+        </div>
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <h2>Cardápio</h2>
+        <div class="itens-cardapio">
+            <div>
+                <img src="img/frango.png" alt="Pizza de frango">
+                <div class="info">
+                    <h3>Frango</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+            <div>
+                <img src="./img/calabresa.png" alt="Pizza de calabresa">
+                <div class="info">
+                    <h3>Calabresa</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/portuguesa.png" alt="Pizza portugues">
+                <div class="info">
+                    <h3>Portuguesa</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/strogonoff.png" alt="Pizza de strogonoff">
+                <div class="info">
+                    <h3>Strogonoff</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/chocolate.png" alt="Pizza de chocolate">
+                <div class="info">
+                    <h3>Chocolate</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/sensacao.png" alt="Pizza de sensação">
+                <div class="info">
+                    <h3>Sensação</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/confete.png" alt="Pizza de confete">
+                <div class="info">
+                    <h3>Confete</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/prestigio.png" alt="Pizza de prestigio">
+                <div class="info">
+                    <h3>Prestigio</h3>
+                    <h4>6 fatias <span>R$35,00</span></h4>
+                    <h4>8 fatias <span>R$55,00</span></h4>
+                    <h4>12 fatias <span>R$75,00</span></h4>
+                    <button class="pedir">Pedir Agora</button>
+                </div>
+            </div>
+
+        </div> 
+        </div>
+    </section>
+
+    <section class="contatos" id="contatos">
+        <h3>Contatos</h3>
+        <div class="contatos-secao">
+            <div>
+                <a href="https://github.com/hilariohabhab" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/mhabhab/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5541996769659&text=Vi%20seu%20projeto%20web%20e%20tenho%20uma%20proposta%20para%20te%20fazer!"><i
+                        class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4>Desenvolvido por Mohamad Habhab </h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
